@@ -1,5 +1,6 @@
 import React from "react"
-import sr from '../components/scrollreveal'
+// TODO: this breaks builds because it's client-side, how to fix?
+// import sr from '../components/scrollreveal'
 
 import styled from 'styled-components'
 
@@ -31,7 +32,7 @@ const disperse = (e) => {
 }
 
 const IndexPage = () => {
-  sr.reveal('div[class^="Hexagon-"], div[class*=" Hexagon-"]', {interval: 600})
+  // sr.reveal('div[class^="Hexagon-"], div[class*=" Hexagon-"]', {interval: 600})
   return (
   <>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />

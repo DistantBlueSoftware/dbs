@@ -1,6 +1,7 @@
 ---
 title: "Devtools Cheatsheet"
 date: "2019-02-08"
+type: 'blog'
 ---
 
 Here's a few handy tricks for your utility belt batman!
