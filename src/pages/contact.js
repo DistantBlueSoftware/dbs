@@ -1,5 +1,5 @@
 import React from "react"
-import { Form, LinkButton, FormInput, Textarea } from "../framework"
+import { Form, Button, FormInput, Textarea } from "../framework"
 
 import SEO from "../components/seo"
 
@@ -17,9 +17,9 @@ const Contact = () => (
       <FormInput type='text' name='name'></FormInput>
       <label>Message: </label>
       <Textarea rows={6} name='message'></Textarea>
-      
+        
+      <Button type='submit'>SUBMIT</Button>
     </Form>
-    <LinkButton type='submit'>SUBMIT</LinkButton>
   </>
 )
 
