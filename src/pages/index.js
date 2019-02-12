@@ -46,17 +46,17 @@ const IndexPage = () => {
         <PortfolioSection><StyledLink to="/subtrack/">subtrack</StyledLink></PortfolioSection>
         <PortfolioSection><StyledLink to="/orderr/">orderr.co</StyledLink></PortfolioSection>
       </PagesContainer>
-      {/*<Container>
+      <Container>
         <p>we use cool tech</p>
         <TechContainer>
-          <Hexagon onClick={disperse}><Icon className='fab fa-node-js'></Icon></Hexagon>
-          <Hexagon onClick={disperse}><Icon className="fab fa-react"></Icon></Hexagon>
-          <Hexagon onClick={disperse}><Icon className="fas fa-terminal"></Icon></Hexagon>
-          <Hexagon onClick={disperse}><Icon className="fas fa-code-branch"></Icon></Hexagon>
-          <Hexagon onClick={disperse}><Icon className="fab fa-vuejs"></Icon></Hexagon>
-          <Hexagon onClick={disperse}><Icon className="fas fa-drafting-compass"></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className='fab fa-node-js'></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fab fa-react"></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fas fa-terminal"></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fas fa-code-branch"></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fab fa-vuejs"></Icon></Hexagon>
+          <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fas fa-drafting-compass"></Icon></Hexagon>
         </TechContainer>
-      </Container>*/}
+      </Container>
     </Container>
   </>
 )}

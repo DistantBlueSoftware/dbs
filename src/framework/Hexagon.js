@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-const time = Math.random() * 5
-
 export const Hexagon = styled.div`
   position: relative;
   width: 100px; 
@@ -14,7 +12,7 @@ export const Hexagon = styled.div`
   align-items: center;
   justify-content: center;
   font-size:48px;
-  animation: floating ${time}s infinite;
+  animation: floating ${props =>  props.time || 1}s infinite;
   :before,
   :after {
     content: "";
