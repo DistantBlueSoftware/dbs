@@ -9,6 +9,7 @@ const Contact = () => (
     <h1>Contact us.</h1>
     <p>We like that sort of thing.</p>
     <Form name='dbsContact' method='post' action='/success' data-netlify='true' netlify-honeypot='shibboleth'>
+      <input type="hidden" name="form-name" value="contact" />
       <div style={{display: 'none'}}>
         <label>This is a mechanism to prevent unwanted messages, and you shouldn't be able to see it: </label>
         <FormInput name='shibboleth'></FormInput>

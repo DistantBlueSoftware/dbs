@@ -46,7 +46,7 @@ const IndexPage = () => {
         <PortfolioSection><StyledLink to="/subtrack/">subtrack</StyledLink></PortfolioSection>
         <PortfolioSection><StyledLink to="/orderr/">orderr.co</StyledLink></PortfolioSection>
       </PagesContainer>
-      <Container>
+      {/*<Container>
         <p>we use cool tech</p>
         <TechContainer>
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className='fab fa-node-js'></Icon></Hexagon>
@@ -56,7 +56,7 @@ const IndexPage = () => {
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fab fa-vuejs"></Icon></Hexagon>
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fas fa-drafting-compass"></Icon></Hexagon>
         </TechContainer>
-      </Container>
+      </Container>*/}
     </Container>
   </>
 )}
