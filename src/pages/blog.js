@@ -40,7 +40,7 @@ export const query = graphql`
           frontmatter {
             type
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MM/DD/YYYY")
           }
           fields {
             slug
