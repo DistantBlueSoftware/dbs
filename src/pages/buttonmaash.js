@@ -8,7 +8,7 @@ const Buttonmash = () => (
     <SEO title="buttonmaash" />
     <h1>buttonmaash</h1>
     <p>the page about buttonmaash the game where u maash button</p>
-    <ExpoSnack id="@perezvon/buttonmash" />
+    <ExpoSnack id="@perezvon/buttonmaash" />
   </>
 )
 
