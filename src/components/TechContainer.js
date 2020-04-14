@@ -43,7 +43,11 @@ const TechContainer = ({ tools }) => {
   const toolsHexagons = tools.map(t => (
     <Hexagon time={randomBounceInterval} onClick={disperse}>
       <Icon
-        className={toolsDictionary[t]?.className || 'fas fa-code-branch'}
+        className={
+          toolsDictionary[t] && toolsDictionary[t].className
+            ? toolsDictionary[t].className
+            : 'fas fa-code-branch'
+        }
       ></Icon>
     </Hexagon>
   ));
