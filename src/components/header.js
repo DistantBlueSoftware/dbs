@@ -52,8 +52,8 @@ const Header = ({ siteTitle }) => (
       </h1>
       <NavLinksContainer>
         <NavLink><StyledLink to='/about'>about</StyledLink></NavLink>
-        {/*<NavLink><StyledLink to='/work'>work</StyledLink></NavLink>*/}
-        <NavLink><StyledLink to='/blog'>blog</StyledLink></NavLink>
+        <NavLink><StyledLink to='/projects'>projects</StyledLink></NavLink>
+        {/* <NavLink><StyledLink to='/blog'>blog</StyledLink></NavLink> */}
         <NavLink><StyledLink to='/contact'>contact</StyledLink></NavLink>
       </NavLinksContainer>
     </div>

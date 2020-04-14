@@ -1,5 +1,6 @@
 import React from 'react';
 import { LinkButton } from '../framework';
+import TechContainer from '../components/TechContainer';
 
 import SEO from '../components/seo';
 
@@ -12,6 +13,7 @@ const HockeyCompass = () => (
       open games. We designed and built the experience from the ground up to be
       lightning-fast and simple to use.
     </p>
+    <TechContainer tools={['react', 'node', 'paypal']} />
     <LinkButton href="https://hockeycompass.com" target="_blank">
       GO TO THERE
     </LinkButton>
