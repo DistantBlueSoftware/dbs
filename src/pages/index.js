@@ -40,14 +40,14 @@ const IndexPage = () => {
       <h1 style={{textAlign: 'center'}}>distant blue software</h1>
       <p>we build awesome things</p>
       <PagesContainer>
-        <PortfolioSection><StyledLink to="/buttonmaash/">buttonmaash</StyledLink></PortfolioSection>
-        {/*<PortfolioSection><StyledLink to="/hockeycompass/">hockeycompass</StyledLink></PortfolioSection>*/}
+        {/* <PortfolioSection><StyledLink to="/buttonmaash/">buttonmaash</StyledLink></PortfolioSection> */}
+        <PortfolioSection><StyledLink to="/hockeycompass/">hockeycompass</StyledLink></PortfolioSection>
         <PortfolioSection><StyledLink to="/phrasemag/">PHRASE magazine</StyledLink></PortfolioSection>
         <PortfolioSection><StyledLink to="/subtrack/">subtrack</StyledLink></PortfolioSection>
         <PortfolioSection><StyledLink to="/orderr/">orderr.co</StyledLink></PortfolioSection>
       </PagesContainer>
-      {/*<Container>
-        <p>we use cool tech</p>
+      <Container>
+        <p>we use modern tools</p>
         <TechContainer>
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className='fab fa-node-js'></Icon></Hexagon>
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fab fa-react"></Icon></Hexagon>
@@ -56,7 +56,7 @@ const IndexPage = () => {
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fab fa-vuejs"></Icon></Hexagon>
           <Hexagon time={Math.random() * 5} onClick={disperse}><Icon className="fas fa-drafting-compass"></Icon></Hexagon>
         </TechContainer>
-      </Container>*/}
+      </Container>
     </Container>
   </>
 )}
