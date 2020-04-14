@@ -1,7 +1,7 @@
-import React from "react"
-import ExpoSnack from 'react-expo-snack'
+import React from 'react';
+import ExpoSnack from 'react-expo-snack';
 
-import SEO from "../components/seo"
+import SEO from '../components/seo';
 
 const Buttonmash = () => (
   <>
@@ -10,6 +10,6 @@ const Buttonmash = () => (
     <p>the page about buttonmaash the game where u maash button</p>
     <ExpoSnack id="@perezvon/buttonmaash" />
   </>
-)
+);
 
-export default Buttonmash
+export default Buttonmash;
